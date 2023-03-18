@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.containar{
+   background-color: white;
+   margin: 0 auto;
+   width: 1300px;
+ }
+ .cart{
+    width: 24%;
+    display: inline-block;
+    /* margin: 0 auto; */
+    
+    
+
+ }
+ img{
+    width: 40%;
+    display: inline-block;
+ }
+ .cart1 {
+    width: 24%;
+    display: inline-block;
+    /* margin: 0 auto; */
+    
+
+ }
+ .cart1 img{
+    width: 81%;
+    display: inline-block;
+    /* margin: 0 auto; */
+
+ }
+ a{
+    text-decoration: none;
+
+ }
+ li{
+    list-style: none;
+ }
+ body{
+     background-color: gray;
+ }
