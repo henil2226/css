@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .header{
+            width: 1200px;
+            height: 100px;
+            background-color: brown;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 100px;
+            color: white;
+            
+        }
+        .mcon{
+            width: 1200px;
+            height: 500px;
+            margin: 5px auto;
+            
+        }
+        
+        
+        .con1{
+            width: 400px;
+            height: 500px;
+            background-color: brown;
+            margin: 0 5px 5px 0;
+        }
+        .con2{
+            width: 800px;
+            height:500px ;
+            background-color: white;
+            
+            
+        }
+        .flex{
+            display: flex;
+        }
+        
+        .box1{
+            background-color: brown;
+            width: 800px;
+            height: 200px;
+        }
+        .box2{
+            background-color: brown;
+            width: 400px;
+            height: 295px;
+            margin: 5px 0;
+        }
+        .box3{
+            background-color: brown;
+            width: 400px;
+            height: 295px;
+            margin: 5px 0 5px 5px;
+        }
+
+
+       
+          
+
+    </style>
+</head>
+<body>
+    
+    <div class="header">Header</div>
+    <div class="mcon">
+        <div class="flex">
+            <div class="con1"></div>
+            <div class="con2">
+                <div class="box1"></div>
+                <div class="flex">
+                <div class="box2"></div>
+                <div class="box3"></div>
+            </div>
+            </div>
+        </div>
+        <div class="header">Footer</div>
+        
+        
+    </div>
+
+</body>
+</html>
