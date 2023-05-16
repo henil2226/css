@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section {
+            height: 800px;
+            background-color:khaki;
+            display: grid;
+            row-gap: 10px;
+            column-gap: 10px;
+            /* grid-template-rows: 150px 150px 150px 150px;
+            grid-template-columns: 150px 150px 150px 150px; */
+            grid-template-rows: 100px 1fr 1fr 100px;
+            grid-template-columns: 1fr 1fr 1fr ;
+            /* grid-template-rows: repeat(3,1fr);
+            grid-template-columns: repeat(4,1fr); */
+        }
+        .box{
+            /* width: 150px;
+            height: 150px; */
+            /* margin: 10px; */
+            background-color: brown;
+        }
+        #item1{
+            font-size: 50px;
+            color: white;
+             grid-column-start: 1;
+             grid-column-end: 4;
+             text-align: center;
+        }
+        #item2{
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+        #item3{
+            grid-column-start: 2;
+             grid-column-end: 4;
+        }
+        #item6{
+            font-size: 50px;
+            color: white;
+             grid-column-start: 1;
+             grid-column-end: 4;
+             text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section>
+        <div class="box" id="item1"> Header</div>
+        <div class="box" id="item2"></div>
+        <div class="box" id="item3"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box" id="item6">footer</div>
+        <div class="box"></div>
+        <!-- <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div> -->
+    </section>
+
+</body>
+
+</html>
